@@ -1,0 +1,6 @@
+com\persistencia\fiap\config\TestConfig.class
+com\persistencia\fiap\App.class
+com\persistencia\fiap\entities\Service.class
+com\persistencia\fiap\repositories\ServiceRepository.class
+com\persistencia\fiap\config\WebConfig.class
+com\persistencia\fiap\controller\ServiceControler.class

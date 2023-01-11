@@ -7,9 +7,9 @@
 		<version>2.6.6</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>persistencia.fiap</groupId>
-	<artifactId>persistencia</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>ms-servico.fiap</groupId>
+	<artifactId>ms-servico</artifactId>
+	<version>1</version>
 	<name>Curso</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

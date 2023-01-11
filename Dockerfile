@@ -1,0 +1,4 @@
+FROM adoptopenjdk/openjdk11:alpine
+MAINTAINER baeldung.com
+COPY target/ms-servico-1.jar ms-servico.jar
+ENTRYPOINT ["java","-jar","/ms-servico.jar"]

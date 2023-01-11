@@ -19,10 +19,11 @@ public class TestConfig implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 
-		Service s1 = new Service(null, "Notebook", 1455.99, "tesatarfsraga");
-		Service s2 = new Service(null, "Teste", 143, "sgfnsmlafglklhfjsk");
+		Service s1 = new Service(null, "Cabelo", 60, "Na tesoura ou maquina como o cliente preferir");
+		Service s2 = new Service(null, "Barba", 40, "Corte e desenho profissional de barba");
+		Service s3 = new Service(null, "Cabelo + Barba", 90, "Pacote completo de cabelo e barba");
 
-		serviceRepository.saveAll(Arrays.asList(s1, s2));
+		serviceRepository.saveAll(Arrays.asList(s1, s2, s3));
 
 	}
 }
